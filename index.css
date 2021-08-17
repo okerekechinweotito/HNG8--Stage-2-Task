@@ -46,7 +46,7 @@ a {
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(./assets/okerekeAvatar1.png);
+  background-image: url(./assets/3.jpg);
   animation-name: toggleAvatar;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
@@ -54,7 +54,7 @@ a {
   animation-direction: alternate;
   margin-top: 0;
 }
-/* avatar mouth changing affect */
+/* avatar mouth changing affect 
 @keyframes toggleAvatar {
   10% {
     background-image: url(./assets/okerekeAvatar3.png);
@@ -86,7 +86,7 @@ a {
   100% {
     background-image: url(./assets/okerekeAvatar5.png);
   }
-}
+} */
 /* bold title  (hey there am okereke) */
 .textAvatar {
   text-align: center;
