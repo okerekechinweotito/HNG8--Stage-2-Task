@@ -1,0 +1,139 @@
+/* page wrapper */
+#blog {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  text-align: center;
+  /* color: #36627c; */
+  color: #b2c4ce;
+  font-size: 1em;
+}
+/* blog wrapper */
+.blogContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -4em;
+}
+/* individual blog post */
+.blogBox {
+  margin-bottom: 2em;
+  width: 19em;
+  background-color: #010c13;
+  background-color: #130e46;
+  border-radius: 1em;
+}
+.blogBox .projectTitle {
+  font-size: 1.2em;
+}
+.blogReadButton {
+  background-color: #090236;
+  border: none;
+  border-radius: 5em;
+  color: #9db4c2;
+  padding: 0.5em;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  margin-top: 0.5em;
+  width: 8em;
+}
+.blogReadButton:hover {
+  background-color: #01090e;
+}
+.blogPic1,
+.blogPic2,
+.blogPic3,
+.blogPic4,
+.blogPic5,
+.blogPic6 {
+  width: 17em;
+  height: 10em;
+  margin: auto;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.blogBox .projectTitle {
+  font-size: 1.5em;
+}
+
+.blogPic2 {
+  background-image: url(https://binarymove.com/wp-content/uploads/2018/11/Most-Popular-Programming-Languages-678x381.png);
+}
+.blogPic1 {
+  background-image: url(https://www.kletech.com/wp-content/uploads/2019/09/oUGrUo9.jpg);
+}
+.blogPic4 {
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--phtox0U7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1200/1%2AEOPCay4ML76rIUskd6ZwRg.png);
+}
+.blogPic3 {
+  background-image: url(https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2017/03/Blog_front-end-developer1.jpg.webp);
+}
+.blogPic5 {
+  background-image: url(https://s27389.pcdn.co/wp-content/uploads/2020/09/why-problem-solving-analytics-needs-new-thinking.jpeg);
+}
+.blogPic6 {
+  background-image: url(https://thumbs.dreamstime.com/z/collection-popular-internet-companies-logo-kiev-ukraine-september-ibm-facebook-amazon-google-microsoft-printed-white-78916193.jpg);
+}
+.blogSnippet {
+  text-align: left;
+  width: 15em;
+  margin: auto;
+}
+
+/* media queries for desktop view */
+@media screen and (min-width: 749px) {
+  /* main page wrapper */
+  #blog {
+    margin-left: 20em;
+    margin-top: 0em;
+  }
+  /* blog wrapper*/
+  .blogContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  .blogWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+    font-size: 1.5em;
+  }
+  /* individual blog box */
+  .blogBox {
+    width: 20em;
+    min-height: auto;
+  }
+
+  /* blog picture boxes */
+  .blogPic1,
+  .blogPic2,
+  .blogPic3,
+  .blogPic4,
+  .blogPic5,
+  .blogPic6 {
+    width: 20em;
+    height: 15em;
+  }
+  /* text in blog box */
+  .blogSnippet {
+    font-size: 1em;
+    text-align: justify;
+  }
+  .projectTitle {
+    font-size: 1.5em !important;
+  }
+  .blogReadButton {
+    font-size: 1.3em;
+    margin-top: 0.5em;
+  }
+}

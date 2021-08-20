@@ -1,0 +1,28 @@
+*:focus {
+  outline: none;
+  border: none;
+}
+*:hover {
+  outline: none;
+  border: none;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #09041d;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+#hideForm {
+  display: none;
+}

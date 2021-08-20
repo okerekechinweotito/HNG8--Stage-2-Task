@@ -1,0 +1,158 @@
+/* main page wrapper */
+#projects {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -2em;
+  text-align: center;
+  /*  color: #36627c; */
+  color: #b2c4ce;
+  font-size: 1em;
+}
+
+/* projects wrapper*/
+.projectsContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+/* individual project box */
+.projectBox {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  width: 19em;
+  /*  height: 23em; */
+  height: auto;
+  /* background-color: #0e0413; */
+  background-color: #130e46;
+  border-radius: 1em;
+}
+
+/* individual picture boxes */
+.okerekeDev,
+.zaddyTv,
+.movieZone,
+.quizApp,
+.bogoApp,
+.githubSearch,
+.zuriLanding,
+.endPoverty {
+  width: 100%;
+  height: 15em;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+/* project picture url */
+.okerekeDev {
+  background-image: url(./asset/okerekedev.png);
+}
+.zaddyTv {
+  background-image: url(./asset/zaddyTvga.png);
+}
+
+.movieZone {
+  background-image: url(./asset/movieZone.png);
+}
+.quizApp {
+  background-image: url(./asset/quiz.png);
+}
+.bogoApp {
+  background-image: url(./asset/bogoApp.png);
+}
+.githubSearch {
+  background-image: url(./asset/githubsearch.png);
+}
+.zuriLanding {
+  background-image: url(./asset/zuriLanding.png);
+}
+.endPoverty {
+  background-image: url(./asset/endpoverty.png);
+}
+
+/* demo repo buttons */
+.demo,
+.repo {
+  background-color: #090236;
+  border: none;
+  border-radius: 5em;
+  color: #b2c4ce;
+
+  padding: 0.5em;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  width: 40%;
+}
+.repo .fa-github {
+  color: #93b6c9 !important;
+}
+.demo {
+  margin-right: 1em;
+}
+.repo {
+  margin-left: 1em;
+}
+.demo:hover,
+.repo:hover {
+  background-color: #01090e;
+}
+/* project title */
+.projectTitle {
+  font-size: 1.5em;
+}
+.projectDescription {
+  padding: 5px;
+}
+
+/* media queries for desktop view */
+@media screen and (min-width: 749px) {
+  /* main page wrapper */
+  #projects {
+    margin-left: 20em;
+  }
+  /* projects wrapper*/
+  .projectsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+    margin-top: -2em;
+  }
+  .projectWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+  }
+  /* individual project box */
+  .projectBox {
+    width: 30em;
+    /*  height: 24em; */
+    height: auto;
+  }
+
+  /* individual picture boxes */
+  .okerekeDev,
+  .zaddyTv,
+  .movieZone,
+  .quizApp,
+  .bogoApp,
+  .githubSearch,
+  .zuriLanding,
+  .endPoverty {
+    width: 30em;
+    height: 15em;
+  }
+  /* text in project box */
+  .projectDescription {
+    font-size: 1.5em;
+  }
+}
