@@ -46,6 +46,28 @@ const Footer = () => {
           <span className="fab fa-discord "></span>
         </a>
       </div>
+
+      <div className="logoLink">
+        <div className="logo">
+          <div className="hng"></div>
+          <div className="zurii4g"></div>
+        </div>
+        <div className="link">
+          <a
+            href="https://internship.zuri.team"
+            target="_blank"
+            rel="noreferrer"
+          >
+            HNG
+          </a>
+          <a href="https://zuri.team" target="_blank" rel="noreferrer">
+            ZURI
+          </a>
+          <a href="https://ingressive.org" target="_blank" rel="noreferrer">
+            I4G
+          </a>
+        </div>
+      </div>
     </article>
   );
 };

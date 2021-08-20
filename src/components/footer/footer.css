@@ -9,7 +9,7 @@
 .socialIcons {
   display: flex;
   flex-flow: row wrap;
-  width: 15em;
+  width: 20em;
   height: 4em;
   justify-content: center;
 }
@@ -49,4 +49,42 @@
   #footer {
     margin-left: 20em;
   }
+}
+
+/* Logos and Links */
+
+.logoLink {
+  width: 20em;
+  height: 10em;
+  margin: auto;
+  margin-top: -2em;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.hng,
+.zurii4g {
+  width: 40%;
+  height: 5em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hng {
+  background-image: url(./assets/hng.png);
+}
+.zurii4g {
+  background-image: url(./assets/zuri-i4g.png);
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1em;
+}
+.link a {
+  color: #b2c4ce;
+  text-decoration: underline;
+  font-weight: bolder;
 }
